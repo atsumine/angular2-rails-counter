@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   template: `
   <div>
     <button type="button" (click)="increment($event)">{{counterValue}}</button>
+    <button type="button" (click)="decrement($event)">-</button>
+    <button (click)="increment($event)">+</button>
+    <button (click)="clear($event)">clear</button>
   </div>
   `
 })
@@ -15,5 +18,13 @@ export class CounterComponent {
 
   public increment(event) {
     this.counterValue++;
+  }
+
+  public decrement(event) {
+    this.counterValue--;
+  }
+
+  public clear(event) {
+    this.counterValue = 0;
   }
 }
