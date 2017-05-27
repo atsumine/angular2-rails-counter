@@ -1509,6 +1509,10 @@ error-ex@^1.2.0:
   dependencies:
     is-arrayish "^0.2.1"
 
+es2015@^0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/es2015/-/es2015-0.0.0.tgz#84eee4c35c8277658b68e7e4638db30741822b14"
+
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
